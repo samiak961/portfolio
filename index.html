@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sami Abdelkhalek | ICT Engineer & Systems Architect</title>
+  <meta name="description"
+    content="Professional portfolio of Sami Abdelkhalek — ICT Engineer specializing in automated pipelines, AI workflows, hardened Linux environments, and fintech-grade security systems.">
+  <meta name="author" content="Sami Abdelkhalek">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Background Particle Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">SA<span>.</span></a>
+      <div class="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#references" class="nav-link">References</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#references">References</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          Open to opportunities
+        </div>
+        <h1 class="hero-name">
+          Hi, I'm <span class="gradient">Sami<br>Abdelkhalek</span>
+        </h1>
+        <h2 class="hero-title">
+          <span id="typing-text">ICT Engineer</span><span
+            style="color:var(--accent);animation:pulse 1s infinite">|</span>
+        </h2>
+        <p class="hero-desc">
+          I build hardened systems, automated pipelines, and AI-powered workflows with a focus on fintech-grade security
+          and fault-tolerant architecture.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-value"><span class="counter" data-target="4" data-suffix="+">0</span></div>
+            <div class="hero-stat-label">Major Projects</div>
+          </div>
+          <div>
+            <div class="hero-stat-value"><span class="counter" data-target="8" data-suffix="+">0</span></div>
+            <div class="hero-stat-label">Technologies</div>
+          </div>
+          <div>
+            <div class="hero-stat-value"><span class="counter" data-target="3" data-suffix="+">0</span></div>
+            <div class="hero-stat-label">Industry Domains</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-wrapper">
+          <img src="picture.jpeg" alt="Sami Abdelkhalek — ICT Engineer and Systems Architect">
+        </div>
+        <div class="hero-image-tag"><i class="fas fa-terminal" style="margin-right:6px"></i> root@sami:~$</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// About Me</span>
+        <h2 class="section-title">Building Systems That <span class="highlight">Never Break</span></h2>
+        <p class="section-desc">
+          An ICT engineer driven by the belief that precision, security, and automation are non-negotiable — especially
+          where the stakes are high.
+        </p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            My background in <strong>Information and Communication Technology</strong> has been heavily focused on
+            building hardened Linux environments and robust automation pipelines. I am most driven when the stakes are
+            high — which is why I'm drawn to sectors like <strong>fintech</strong>, where a vulnerability in a script
+            isn't just a bug, it's a financial risk.
+          </p>
+          <p>
+            I specialize in structuring <strong>fault-tolerant systems</strong> and terminal-based workflows, combining
+            custom Python and Bash scripts with visual orchestration tools like Langchain. My philosophy is simple: in
+            critical systems, risk management requires <strong>redundant, layered logic</strong>.
+          </p>
+          <p>
+            Beyond the terminal, I've built <strong>AI-powered platforms</strong>, designed <strong>algorithmic trading
+              systems</strong> compliant with strict FTMO risk parameters, and architected automated threat-detection
+            pipelines. I treat every project as a mission-critical deployment.
+          </p>
+        </div>
+        <div class="about-cards reveal reveal-delay-2">
+          <div class="about-card">
+            <div class="about-card-icon green"><i class="fas fa-shield-halved"></i></div>
+            <h4>Systems Hardening</h4>
+            <p>Building secure, hardened Linux environments with layered defense architecture.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon blue"><i class="fas fa-robot"></i></div>
+            <h4>AI Workflows</h4>
+            <p>Designing agentic pipelines using Python, Langchain, and custom orchestration logic.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon green"><i class="fas fa-chart-line"></i></div>
+            <h4>Algo Trading</h4>
+            <p>FTMO-compliant quantitative strategies with redundant risk-management layers.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon blue"><i class="fas fa-network-wired"></i></div>
+            <h4>Network Security</h4>
+            <p>Automated threat detection, traffic monitoring, and real-time alert pipelines.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section" id="skills" style="background:var(--bg-surface)">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Technical Arsenal</span>
+        <h2 class="section-title">Skills & <span class="highlight">Technologies</span></h2>
+        <p class="section-desc">A toolkit forged in real-world deployments — from terminal-based automation to AI
+          orchestration.</p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="reveal">
+          <h3 class="skill-category-title">Core Competencies</h3>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Python Development</span><span
+                class="skill-pct">92%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="92%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Bash / Shell Scripting</span><span
+                class="skill-pct">90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Linux Administration</span><span
+                class="skill-pct">93%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="93%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">API Integration & JSON</span><span
+                class="skill-pct">88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="88%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Network Security & Monitoring</span><span
+                class="skill-pct">85%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <h3 class="skill-category-title">Professional Skills</h3>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Analytical Problem-Solving</span><span
+                class="skill-pct">95%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">System Architecture Design</span><span
+                class="skill-pct">88%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="88%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Team Collaboration</span><span
+                class="skill-pct">90%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Technical Documentation</span><span
+                class="skill-pct">87%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="87%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header"><span class="skill-name">Agile Project Delivery</span><span
+                class="skill-pct">82%</span></div>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="82%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tools-grid reveal" style="justify-content:center; margin-top:56px">
+        <div class="tool-tag"><i class="fab fa-python"></i> Python</div>
+        <div class="tool-tag"><i class="fas fa-terminal"></i> Bash</div>
+        <div class="tool-tag"><i class="fab fa-linux"></i> Linux</div>
+        <div class="tool-tag"><i class="fas fa-project-diagram"></i> Langchain</div>
+        <div class="tool-tag"><i class="fas fa-code"></i> Pine Script</div>
+        <div class="tool-tag"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="tool-tag"><i class="fas fa-exchange-alt"></i> REST APIs</div>
+        <div class="tool-tag"><i class="fas fa-file-code"></i> JSON</div>
+        <div class="tool-tag"><i class="fas fa-shield-alt"></i> tcpdump</div>
+        <div class="tool-tag"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="tool-tag"><i class="fas fa-brain"></i> AI / LLMs</div>
+        <div class="tool-tag"><i class="fas fa-database"></i> SQL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Featured Work</span>
+        <h2 class="section-title">Projects & <span class="highlight">Initiatives</span></h2>
+        <p class="section-desc">A selection of systems I've architected — from AI platforms to automated security
+          pipelines.</p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1: Q-Ai -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-icon green"><i class="fas fa-brain"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/samiak961" target="_blank" rel="noopener noreferrer" class="project-link"
+                title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Q-Ai Platform</h3>
+            <p>An AI-powered educational platform featuring dual-theme design (Cosmic Focus / Botanical Clarity),
+              intelligent content delivery, and a full brand identity with commercial video production.</p>
+            <div class="project-tags">
+              <span class="project-tag green">AI / LLMs</span>
+              <span class="project-tag blue">Next.js</span>
+              <span class="project-tag purple">Brand Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Bridge Tech -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-header">
+            <div class="project-icon blue"><i class="fas fa-diagram-project"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/samiak961" target="_blank" rel="noopener noreferrer" class="project-link"
+                title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Bridge Tech Initiative</h3>
+            <p>A collaborative tech initiative featuring automated agentic workflows. Designed a hybrid architecture
+              combining Langchain visual orchestration with custom Python and Bash scripts for API synchronization.</p>
+            <div class="project-tags">
+              <span class="project-tag green">Python</span>
+              <span class="project-tag blue">Langchain</span>
+              <span class="project-tag amber">Bash</span>
+              <span class="project-tag purple">Webhooks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Algo Trading -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-header">
+            <div class="project-icon green"><i class="fas fa-chart-candlestick"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="Details"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Algorithmic Trading System</h3>
+            <p>FTMO-compliant quantitative trading strategy built in Pine Script with a redundant risk-management layer.
+              Includes a secondary Python-based external monitor as a fail-safe against drawdown breaches.</p>
+            <div class="project-tags">
+              <span class="project-tag green">Pine Script</span>
+              <span class="project-tag blue">Python</span>
+              <span class="project-tag amber">FTMO</span>
+              <span class="project-tag purple">Risk Mgmt</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Security Pipeline -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-card-header">
+            <div class="project-icon blue"><i class="fas fa-user-secret"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/samiak961" target="_blank" rel="noopener noreferrer" class="project-link"
+                title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3>Network Security Pipeline</h3>
+            <p>A three-tiered automated threat detection system: Bash for real-time traffic capture via tcpdump, a
+              Python daemon for anomaly parsing with regex-based threshold analysis, and Langchain webhooks for tiered
+              alerting.</p>
+            <div class="project-tags">
+              <span class="project-tag green">Bash</span>
+              <span class="project-tag blue">Python</span>
+              <span class="project-tag amber">tcpdump</span>
+              <span class="project-tag purple">Langchain</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section" id="experience" style="background:var(--bg-surface)">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Journey</span>
+        <h2 class="section-title">Education & <span class="highlight">Experience</span></h2>
+        <p class="section-desc">The milestones and experiences that shaped my engineering philosophy.</p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2026 — Present</div>
+            <h3>Q-Ai Platform — Founder & Technical Lead</h3>
+            <h4>AI-Powered Educational Technology</h4>
+            <p>Architected the full-stack platform, designed dual-theme brand identity, produced commercial content, and
+              built the AI pipeline for intelligent content delivery. Managed social media analytics and growth
+              strategy.</p>
+            <div class="timeline-tags">
+              <span class="project-tag green">AI</span>
+              <span class="project-tag blue">Next.js</span>
+              <span class="project-tag purple">Brand</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 — Present</div>
+            <h3>Bridge Tech — Technical Partner</h3>
+            <h4>Multi-Brain Agentic Systems</h4>
+            <p>Co-designed a hybrid artificial intelligence architecture blending high-tear workflows with custom Python
+              and Bash
+              injection nodes. Deployed automated API synchronization pipelines and webhook management systems.</p>
+            <div class="timeline-tags">
+              <span class="project-tag green">Python</span>
+              <span class="project-tag blue">Langchain</span>
+              <span class="project-tag amber">Bash</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2022 — Present</div>
+            <h3>Quantitative Trading — Independent Research</h3>
+            <h4>Algorithmic Strategy Development</h4>
+            <p>Developed Pine Script strategies aligned with FTMO risk parameters. Built redundant risk-management
+              layers with Python-based external monitors. Debugged live-simulation failures through systematic log
+              analysis.</p>
+            <div class="timeline-tags">
+              <span class="project-tag green">Pine Script</span>
+              <span class="project-tag blue">Python</span>
+              <span class="project-tag purple">FTMO</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Ongoing</div>
+            <h3>B.S. in Information & Communication Technology</h3>
+            <h4>University Studies</h4>
+            <p>Core curriculum in network architecture, system administration, cybersecurity principles, and software
+              engineering. Additional coursework in composition, rhetoric, and project management methodologies.</p>
+            <div class="timeline-tags">
+              <span class="project-tag green">ICT</span>
+              <span class="project-tag blue">Networking</span>
+              <span class="project-tag purple">Security</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REFERENCES ========== -->
+  <section class="section" id="references">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// References</span>
+        <h2 class="section-title">Credentials & <span class="highlight">Insights</span></h2>
+        <p class="section-desc">Explore my formal credentials, technical interview insights, and introduction video.</p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="projects-grid">
+        <!-- CV -->
+        <div class="project-card reveal" onclick="openModal('pdf', 'CV.pdf', 'Curriculum Vitae')"
+          style="cursor:pointer">
+          <div class="project-card-header">
+            <div class="project-icon green"><i class="fas fa-file-pdf"></i></div>
+            <div class="project-links"><span class="project-link"><i class="fas fa-eye"></i></span></div>
+          </div>
+          <div class="project-card-body">
+            <h3>Curriculum Vitae</h3>
+            <p>Preview my complete professional history, educational background, and full technical skill set.</p>
+            <div class="cv-download-btns" style="display:flex;gap:10px;margin-top:14px">
+              <a href="CV.pdf" download="Sami_Abdelkhalek_CV.pdf" class="btn btn-outline" onclick="event.stopPropagation()" style="padding:8px 18px;font-size:0.8rem">
+                <i class="fas fa-download"></i> PDF
+              </a>
+              <a href="CV.docx" download="Sami_Abdelkhalek_CV.docx" class="btn btn-outline" onclick="event.stopPropagation()" style="padding:8px 18px;font-size:0.8rem">
+                <i class="fas fa-file-word"></i> DOCX
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Interview -->
+        <div class="project-card reveal reveal-delay-1" onclick="openModal('md', 'interview.md', 'Technical Interview')"
+          style="cursor:pointer">
+          <div class="project-card-header">
+            <div class="project-icon blue"><i class="fas fa-file-code"></i></div>
+            <div class="project-links"><span class="project-link"><i class="fas fa-eye"></i></span></div>
+          </div>
+          <div class="project-card-body">
+            <h3>Technical Interview</h3>
+            <p>Read through a detailed QA session covering my engineering philosophy and problem-solving approach.</p>
+          </div>
+        </div>
+        <!-- Reflection -->
+        <div class="project-card reveal reveal-delay-2" onclick="openModal('md', 'reflection.md', 'Self Reflection')"
+          style="cursor:pointer">
+          <div class="project-card-header">
+            <div class="project-icon green"><i class="fas fa-pen-nib"></i></div>
+            <div class="project-links"><span class="project-link"><i class="fas fa-eye"></i></span></div>
+          </div>
+          <div class="project-card-body">
+            <h3>Self Reflection</h3>
+            <p>Personal insights on continuous learning, the importance of pragmatic tech, and career direction.</p>
+          </div>
+        </div>
+        <!-- Video -->
+        <div class="project-card reveal reveal-delay-3" onclick="openModal('video', 'video.mp4', 'Introduction Video')"
+          style="cursor:pointer">
+          <div class="project-card-header">
+            <div class="project-icon blue"><i class="fas fa-video"></i></div>
+            <div class="project-links"><span class="project-link"><i class="fas fa-eye"></i></span></div>
+          </div>
+          <div class="project-card-body">
+            <h3>Introduction Video</h3>
+            <p>Watch a brief video introduction highlighting my communication style and professional presence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">// Get In Touch</span>
+        <h2 class="section-title">Let's Build <span class="highlight">Something Great</span></h2>
+        <p class="section-desc">Have a project in mind or want to discuss opportunities? I'd love to hear from you.</p>
+        <div class="gradient-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <h3 style="font-size:1.3rem;font-weight:700;margin-bottom:8px">Contact Information</h3>
+          <p class="section-desc" style="font-size:0.95rem">
+            Whether you're looking to build secure infrastructure, automate critical workflows, or explore AI-driven
+            solutions — let's connect.
+          </p>
+          <div class="contact-info-cards">
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <h4>Email</h4>
+                <p>sami.abdelkhalek@outlook.com</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h4>Location</h4>
+                <p>Lebanon</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h4>Availability</h4>
+                <p>Open to full-time & freelance opportunities</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/samiak961" target="_blank" rel="noopener noreferrer" class="social-link"
+              title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" title="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <form class="contact-form" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" placeholder="Your email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input type="text" id="contact-subject" placeholder="Project inquiry">
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="justify-content:center;width:100%">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Sami <span>Abdelkhalek</span>. Engineered with precision.</p>
+    </div>
+  </footer>
+
+  <!-- ========== MODAL ========== -->
+  <div class="modal" id="preview-modal">
+    <div class="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title">Preview</h3>
+        <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Content injected here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
